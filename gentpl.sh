@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ "$#" -lt 1 || "$1" = "--help" ]]; then
-	echo "Syntax: gendeployments.sh <number of services>"
+	echo "Syntax: gentpl.sh <number of services>"
 	echo ""
 	exit
 fi
